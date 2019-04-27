@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Header />
+   <S:Body>
+      <ns3:sendMessageRequest xmlns:ns3="http://engagement.smcs.sap.com/domain/soap" xmlns:ns2="exceptions.synapta">
+         <username>^username^</username>
+         <password>^password^</password>
+         <textMessage>
+            <broadcastChannelId>1</broadcastChannelId>
+            <deliveryStatusAddress>
+               <address>https://customeraddress/MessageReceivingConnectorService/MessageReceivingConnector</address>
+               <username>testdsusername</username>
+               <password>testdspassword</password>
+            </deliveryStatusAddress>
+            <destination>123456</destination>
+            <message>This is a example showing a long message being issued which will be sent out over two separate text messages. There will be two message references created, one for each part. Each part will generate a separate updateDeliveryStatus notification</message>
+            <subscriptionId>43AX123B</subscriptionId>
+            <additionalData>&lt;campaignname&gt;Campaign1&lt;campaignname&gt;</additionalData>
+         </textMessage>
+      </ns3:sendMessageRequest>
+   </S:Body>
+</S:Envelope>

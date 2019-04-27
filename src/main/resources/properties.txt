@@ -1,0 +1,5 @@
+Patient's Name = John Doe
+Doctor's Name = Dr. Donald
+Specialization = Diabetologist
+Date = 20170411
+Time = 0400 

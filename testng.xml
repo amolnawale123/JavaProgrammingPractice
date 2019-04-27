@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RetryFailesTestCases" verbose="1">
+	<listeners>
+		<listener class-name="com.test.analyzer.MyTransformer" />
+	</listeners>
+
+	<test name="FunctionalTests" preserve-order="true">
+		<classes>
+			<class name="sampleTest.MyTests" />
+		</classes>
+	</test>
+</suite>
