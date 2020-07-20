@@ -14,7 +14,6 @@ public class MyRunnable implements Runnable {
 		this.url = url;
 	}
 
-	@Override
 	public void run() {
 
 		String result = "";

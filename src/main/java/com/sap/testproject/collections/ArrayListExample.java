@@ -16,6 +16,7 @@ public class ArrayListExample {
 		al.add(5, "Amit");
 		//al.remove(2);
 		
+		al.set(al.indexOf("Amit"), "Ashok");
 		ArrayList<String> al2 = new ArrayList<String>();
 		al2.add("Amol");
 		al2.add("Deva");

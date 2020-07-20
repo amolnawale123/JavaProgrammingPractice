@@ -3,10 +3,11 @@ package com.sap.interview;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// Fibonacci Series using ArrayList
 public class FibonacciSeries {
 	public static void main(String[] args) {
 
-		ArrayList<Integer> series = new ArrayList<>();
+		ArrayList<Integer> series = new ArrayList<Integer>();
 		series.add(0);
 		series.add(1);
 
@@ -27,11 +28,17 @@ public class FibonacciSeries {
 			for (int i = 3; i <= length; i++) {
 				series.add(series.get(i - 2) + series.get(i - 3));
 			}
-			System.out.println("The Fibonacci Series of length "+length+" is as below :");
+			System.out.println("The Fibonacci Series of length " + length + " is as below :");
 			System.out.println(series);
 
 		}
 
 	}
+
+	// Output
+	// Please enter the length of the Fibonacci Series:
+	// 8
+	// The Fibonacci Series of length 8 is as below :
+	// [0, 1, 1, 2, 3, 5, 8, 13]
 
 }

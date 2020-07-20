@@ -21,5 +21,10 @@ public class Factorial {
 		}
 
 	}
+	// Output
+	// Enter the Number:
+	// 6
+	// Factorial of 6 is:
+	// 720
 
 }

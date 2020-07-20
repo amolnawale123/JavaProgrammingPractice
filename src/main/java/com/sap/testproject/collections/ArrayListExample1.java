@@ -17,6 +17,7 @@ public class ArrayListExample1 {
 		al.add(s3);
 		al.add(s4);
 		
+
 		Iterator<Student> itr = al.iterator();
 		while(itr.hasNext()){
 			Student st = itr.next();

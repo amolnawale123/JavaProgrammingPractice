@@ -2,7 +2,7 @@ package com.sap.interview;
 
 public class VarArgs {
 
-	static void fun(int... a) {
+	static void fun(int...a) {
 		System.out.println("Number of arguments: " + a.length);
 
 		// using for each loop to display contents of a
