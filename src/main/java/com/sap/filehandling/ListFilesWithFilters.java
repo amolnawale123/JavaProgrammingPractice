@@ -10,7 +10,6 @@ public class ListFilesWithFilters {
 
 		FilenameFilter txtFilter = new FilenameFilter() {
 
-			@Override
 			public boolean accept(File dir, String name) {
 
 				if (name.endsWith(".csv")) {

@@ -21,9 +21,9 @@ public class AnagramStrings {
 		}
 		
 		if(status) {
-			System.out.println("The Strings are Anagram");
+			System.out.println("The Strings "+str1+" and "+str2+" are Anagram");
 		} else {
-			System.out.println("The Strings are NOT Anagram");
+			System.out.println("The Strings "+str1+" and "+str2+" are NOT Anagram");
 		}
 	}
 	public static void main(String[] args) {
