@@ -4,7 +4,7 @@ public class NaturalNumbersSumWithRecursion {
 
 	public static void main(String[] args) {
 
-		int num = 3;
+		int num = 6;
 		int sum = addNumber(num);
 		System.out.println("Sum of integers upto " + num + " = " + sum);
 

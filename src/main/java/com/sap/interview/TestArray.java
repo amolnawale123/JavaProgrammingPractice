@@ -6,9 +6,9 @@ public class TestArray {
 
 	public static void main(String[] args) {
 
-		int[] x = { 1, 2, 3, 4 };
+		int[] x = { 1, 2, 3, 4,5 };
 		int[] y = new int[x.length];
-		int prod = x[0] * x[1] * x[2] * x[3];
+		int prod = x[0] * x[1] * x[2] * x[3] *x[4];
 		System.out.println(prod);
 
 		for (int i = 0; i < x.length; i++) {
