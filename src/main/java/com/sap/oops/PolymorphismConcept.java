@@ -1,7 +1,5 @@
 package com.sap.oops;
 
-import org.apache.commons.collections4.bag.SynchronizedSortedBag;
-
 public class PolymorphismConcept {
 
 	class A{
@@ -24,7 +22,7 @@ public class PolymorphismConcept {
 	public static void main(String[] args) {
 
 		PolymorphismConcept poly = new PolymorphismConcept();
-		B obj = (B) poly.new A();
+		A obj = poly.new B();
 		obj.run();
 		
 		
